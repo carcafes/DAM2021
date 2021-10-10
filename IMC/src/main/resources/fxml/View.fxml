@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="view" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="220.0" prefWidth="368.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" prefHeight="48.0" prefWidth="600.0">
+         <children>
+            <Label text="Peso: " />
+            <TextField fx:id="Peso" onAction="#actionPerformed" prefHeight="25.0" prefWidth="108.0" />
+            <Label text="Kg" />
+         </children></HBox>
+      <HBox alignment="CENTER" prefHeight="39.0" prefWidth="600.0">
+         <children>
+            <Label text="Altura: " />
+            <TextField fx:id="Altura" onAction="#actionPerformed" prefHeight="25.0" prefWidth="104.0" />
+            <Label text="m" />
+         </children></HBox>
+      <HBox alignment="CENTER" prefHeight="32.0" prefWidth="600.0">
+         <children>
+            <Label text="IMC:" />
+            <Label fx:id="IMC" text="0" />
+         </children></HBox>
+      <Label fx:id="Clasificacion" text="Clasificacion" />
+   </children>
+</VBox>
