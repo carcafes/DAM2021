@@ -12,4 +12,10 @@
 			<version>2.8.5</version>
 		</dependency>
 	</dependencies>
+	<properties>
+		<maven.compiler.target>11</maven.compiler.target>
+		<maven.compiler.source>11</maven.compiler.source>
+  		<exec.mainClass>GsonSample.Persona</exec.mainClass>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 </project>

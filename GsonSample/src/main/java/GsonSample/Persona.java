@@ -1,3 +1,4 @@
+package GsonSample;
 import java.util.Scanner;
 
 import com.google.gson.Gson;

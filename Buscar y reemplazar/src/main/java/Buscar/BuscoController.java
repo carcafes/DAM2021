@@ -18,51 +18,7 @@ public class BuscoController implements Initializable {
 
 
 	  @FXML
-	    private VBox view;
-
-	    @FXML
-	    private GridPane grid;
-
-	    @FXML
-	    private Label labelBuscar;
-
-	    @FXML
-	    private Label labelRemplazar;
-
-	    @FXML
-	    private TextField textRe;
-
-	    @FXML
-	    private TextField textBu;
-
-	    @FXML
-	    private Button buttonRe;
-
-	    @FXML
-	    private Button buttonBu;
-
-	    @FXML
-	    private Button buttonCerrar;
-
-	    @FXML
-	    private Button buttonReTodo;
-
-	    @FXML
-	    private Button buttonAyuda;
-
-	    @FXML
-	    private CheckBox buttonEx;
-
-	    @FXML
-	    private CheckBox buttonMayus;
-
-	    @FXML
-	    private CheckBox buttonResaltar;
-
-	    @FXML
-	    private CheckBox BuscarAtras;
-
-	
+	    private GridPane view;	
 
 	public BuscoController() throws IOException {
 		FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/View.fxml"));
@@ -75,7 +31,7 @@ public class BuscoController implements Initializable {
 
 	}
 
-	public VBox getView() {
+	public GridPane getView() {
 		return view;
 	}
 	
