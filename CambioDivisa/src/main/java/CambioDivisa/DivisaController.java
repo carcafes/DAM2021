@@ -1,4 +1,4 @@
-package Buscar;
+package CambioDivisa;
 
 import java.io.IOException;
 import java.net.URL;
@@ -14,13 +14,13 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
 
-public class BuscoController implements Initializable {
+public class DivisaController implements Initializable {
 
 
 	  @FXML
 	    private GridPane view;	
 
-	public BuscoController() throws IOException {
+	public DivisaController() throws IOException {
 		FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/View.fxml"));
 		loader.setController(this);
 		loader.load();

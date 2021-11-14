@@ -1,11 +1,11 @@
-package Buscar;
+package CambioDivisa;
 
 
 import javafx.application.Application;
 	import javafx.scene.Scene;
 	import javafx.stage.Stage;
 	
-public class BuscApp extends Application{
+public class DivisApp extends Application{
 	
 	private DivisaController controller;
 	@Override
