@@ -1,7 +1,7 @@
 <?php
 
 try{
-    $base = new PDO ('mysql:host=localhost; dbname=db_comidapp;charset=utf8mb4','usuarios', 'usuarios');
+    $base = new PDO ('mysql:host=localhost; dbname=db_comidapp;charset=utf8mb4','root', '');
 
     $base->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
